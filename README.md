@@ -12,4 +12,14 @@
 redis-lock:
   enabled: true  #是否启用
   prefix-key: 'lock:' #reids中key前缀
+
+
+```
+
+```
+OneByOne oneByOne = new OneByOne("bizType", "20220128");
+String result = oneByOneTemplate.execute(oneByOne, () -> {
+   // 业务逻辑
+    return "OK";
+});
 ```
