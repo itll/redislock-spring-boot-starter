@@ -1,0 +1,8 @@
+{"properties": [
+  {
+    "name": "redis-lock.enabled",
+    "type": "java.lang.Boolean",
+    "description": "是否启动自动装配功能."
+  }
+]
+}
